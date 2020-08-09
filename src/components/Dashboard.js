@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import classes from './Dashboard.module.css';
 import LineGraph from './LineGraph';
 
 class Dashboard extends Component {

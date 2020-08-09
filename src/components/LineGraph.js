@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
 import Chart from 'chart.js';
-import classes from './LineGraph.module.css';
 
-//--Chart Style Options--//
 Chart.defaults.global.defaultFontFamily = "'PT Sans', sans-serif";
 
-//Setting the tension to 0 removes the smooth curves in graph. Optionally, can set the value to 0.1 or 0.2 to get a slight tension curve.
 Chart.defaults.global.elements.line.tension = 0;
 
 class LineGraph extends Component {
@@ -116,7 +113,7 @@ class LineGraph extends Component {
       this.updateChart();
     }
     return (
-      <div className={classes.graphContainer}>
+      <div>
         <canvas id="myChart" ref={this.chartRef} />
       </div>
     );
