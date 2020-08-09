@@ -1,0 +1,45 @@
+.App {
+  width: 82%;
+  margin: auto;
+}
+
+.page-header {
+  text-align: center;
+}
+
+.form {
+  padding: 12px 20px;
+  border: 1px solid #b1afaf85;
+  border-radius: 4px;
+  padding-top: 15px;
+  padding-bottom: 8px;
+  margin: auto;
+  width: 70%;
+}
+
+.symbol-input {
+  padding: 7px 7px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.drop-down {
+  padding: 6px 7px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-right: 16px;
+}
+
+.search-button {
+  padding: 6px 7px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-right: 8px;
+  background-color: white;
+  color: #797979;
+}

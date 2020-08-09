@@ -1,0 +1,166 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  color: #847e7e;
+  background-color: #e6e8e6;
+}
+
+.page-header {
+  margin-top: auto;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-family: Acme;
+}
+
+.chart-title {
+  padding-left: 20px;
+  font-family: Acme;
+}
+
+.classes-container {
+  width: 73.5%;
+  margin: auto;
+}
+
+#myChart {
+  background-color: #f9f9f9fc;
+  display: block;
+  width: 73.5%;
+  margin: auto;
+}
+
+.table-entries {
+  display: flex;
+  justify-content: space-between;
+}
+
+td {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 3.5px;
+}
+
+th {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 6px;
+  padding-bottom: 7px;
+}
+
+.data-table {
+  padding-bottom: 25px;
+  text-align: center;
+  width: 100%;
+}
+
+.table-entries {
+  text-align: center;
+}
+
+.date {
+  width: 13%;
+  font-size: 16px;
+}
+
+.open {
+  width: 14%;
+  font-size: 16px;
+}
+
+.high {
+  width: 14%;
+  font-size: 16px;
+}
+
+.low {
+  width: 14%;
+  font-size: 16px;
+}
+
+.close {
+  width: 14%;
+  font-size: 16px;
+}
+
+.volume {
+  width: 14%;
+  font-size: 16px;
+}
+
+.market-cap {
+  width: 14%;
+  font-size: 16px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-right: 16px;
+  margin-left: 8px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 56px;
+  height: 30px;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-top: -5px;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 30px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.error-message {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
